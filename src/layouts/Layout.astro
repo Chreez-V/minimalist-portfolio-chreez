@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/webp" href="/chreezart.webp" />
 		<title>Chreez Minimalist</title>
 	</head>
 	<body>
@@ -15,7 +15,7 @@
 <style is:global>
 	html{
 		font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
-		background: #f8f8f8;
+		background: #fff;
 		letter-spacing: -0.025rem;
 	}
 
@@ -56,11 +56,27 @@
 	}
 
 	p{
-		color: #888;
-			font-size: .8rem;
+		color: #555;
+			font-size: .9rem;
 		line-height: 1.5;
 		margin:0;
 		text-wrap: pretty;
 
+	}
+
+	.print{
+	display:none;
+
+	}
+
+	@media print{
+
+		.no-print{
+            display:none !important;
+        }
+
+		.print{
+			display:block !important;
+		}
 	}
 </style>

@@ -1,37 +1,42 @@
 {
   "basics": {
     "name": "Christian Vásquez",
-    "label": "Ilustrador/Animador 2D y Diseñador web en formación",
-    "image": "./public/chreezart.webp",
+    "label": "Ilustrador, Desarrollador Web y Diseñador UI/UX en Formación",
+    "image": "./pf2.webp",
     "email": "chreezart@gmail.com",
-    "phone": "+58 99999999",
+    "phone": "+58 4127160174",
     "url": "https://chreez.art",
-    "summary": "+5 años de experiencia creando ilustraciones digitales junto a varias animaciones. Actualmente estudio ingeniería en informática para mezclar con mayor profundidad mis pasiones junto a la tecnología. Mi desempeño en el campo laboral hasta ahora ha sido freelancer.",
+    "summary": "Estudiante de ingeniería en informática y autodidacta en el diseño web, gráficos computacionales y animación. +5 Años utilizando diferentes entornos y herramientas en diseño e ilustración. Disponibilidad para trabajar en proyectos de desarrollo web,ilustración y animación 2D.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Ciudad Guayana",
       "countryCode": "VE",
-      "region": "Bolivar"
+      "region": "Venezuela"
     },
     "profiles": [
       {
         "network": "Instagram",
         "username": "chreezart",
         "url": "https://instagram.com/chreezart"
+      },
+      {
+        "network": "GitHub",
+        "username": "Chreez-V",
+        "url": "https://github.com/Chreez-V"
       }
     ]
   },
   "work": [
     {
       "name": "Citium",
-      "position": "Web Designer",
+      "position": "UI/UX Designer",
       "url": "https://citium.dev",
       "startDate": "2024-08-12",
       "endDate": null,
-      "summary": "Agencia especializada en desarrollo y diseño web",
+      "summary": "Diseño la maquetación hasta el prototipo de las páginas web de los clientes en la agencia Citium, también elaboro diseños personalizados como logos, ilustraciones y animaciones.",
       "highlights": [
-        "Started the company"
+        "Diseño de la web de Citium (landing page)"
       ]
     }
   ],
@@ -52,7 +57,7 @@
     {
       "institution": "Universidad Nacional Experimental de Guayana",
       "url": "https://uneg.edu.ve/",
-      "area": "Software Development",
+      "area": "Ingeniería en Informática",
       "studyType": "Bachelor",
       "startDate": "2021-09-01",
       "endDate": null,
@@ -89,13 +94,67 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "HTML",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Desarrollo Web",
+        "Frontend"
       ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Figma",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "C/C++",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "Java",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "UNIX & Linux",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
     }
   ],
   "languages": [
@@ -110,13 +169,9 @@
   ],
   "interests": [
     {
-      "name": "Anime",
+      "name": "Diseño",
       "keywords": [
-        "Furros",
-        "Unicornios",
-        "JavaScript",
-        "Vinland saga",
-        "Dungeon meshi"
+        "JavaScript"
       ]
     }
   ],
@@ -125,17 +180,31 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }
-  ],
+  ],    
   "projects": [
     {
-      "name": "Project",
+      "name": "Citium",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "description": "Agencia especializada en desarrollo y diseño web, mi trabajo trató en diseñar la web de Citium (landing page), sus componentes e ilustraciones personalizadas para los servicios",
+      "highlights": [],
+      "url": "https://www.citium.dev/"
+    },
+    {
+      "name": "UI/UX Asosiación de Karate-do Estado Bolivar (AKEB)",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Cliente de citium, AKEB se encargará de mostrar los ranking de los atletas del estado, eventos y dojos afiliados a la asociación. Mi trabajo constió en el desarrollo y diseño de la landing page y sub-páginas para la página web de AKEB",
+      "highlights": [],
+      "url": "https://drive.google.com/drive/u/2/folders/1SNoCW4EARhpaUiuAgerfpy6cnqI-Stzt"
+    },
+    {
+      "name": "UI/UX Sistema de Registro de Eventos UNEG",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Proyecto comunitario para la Biblioteca de la Universidad Nacional Experimental de Guayana para registrar eventos y reservar cubículos. Mi trabajo constó en el desarrollo y diseño de la web de la biblioteca, el panel de control y el panel de admin de la web, desarrollo y diseño de login y panel de usuario del proyecto",
+      "highlights": [],
+      "url": "https://drive.google.com/drive/folders/115XikBHcPq8SgMIZ7d_4mq4hryNoKTLg?usp=sharing"
     }
   ]
 }
