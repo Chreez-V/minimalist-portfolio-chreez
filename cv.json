@@ -126,7 +126,7 @@
       ]
     },
     {
-      "name": "Astro",
+      "name": "Astro_FW",
       "level": "Master",
       "keywords": [
         "Desarrollo Web",
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "name": "C/C++",
+      "name": "C_Cpp",
       "level": "Master",
       "keywords": "Desarrollo Software"
     },
@@ -152,7 +152,7 @@
       "keywords": "Desarrollo Software"
     },
     {
-      "name": "UNIX & Linux",
+      "name": "UNIX_Linux",
       "level": "Master",
       "keywords": "Desarrollo Software"
     }
@@ -180,7 +180,7 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }
-  ],    
+  ],
   "projects": [
     {
       "name": "Citium",

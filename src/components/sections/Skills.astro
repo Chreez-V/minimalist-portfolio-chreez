@@ -2,15 +2,43 @@
 ---
 	import Section from "@/components/Section.astro"
 
+import HTML from "@/icons/HTML.astro"
+import CSS from "@/icons/CSS.astro"
+import Figma from "@/icons/Figma.astro"
+import C_Cpp from "@/icons/C_Cpp.astro"
+import Java from "@/icons/Java.astro"
+import Git from "@/icons/Git.astro"
+import UNIX_Linux from "@/icons/UnixLinux.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import Astro_FW from "@/icons/Astro.astro"
+
 	import { skills } from "@cv"
+	
+	const SKILLS_ICONS: Record<string, any> = {
+		HTML,
+		CSS,
+		Figma,
+		C_Cpp,
+		Java,
+		Git,
+	  UNIX_Linux,
+	  Astro_FW,
+		Tailwind,
+
+		
+	}
 ---
 <Section title="Habilidades">
   <ul>
     {
       skills.map(({name}) => {
+
+	const IconName = name === "Next.js" ? "Next" : name
+	const Icon = SKILLS_ICONS[IconName]
+
 		return(
 		<li>
-			<span>{name}</span>
+		{Icon &&  <Icon/>}   <span>{name}</span>
 		</li>
 		)
 		})
@@ -19,6 +47,8 @@
 </Section>
 
 <style>
+
+
   ul {
     display: inline-flex;
     gap: 8px;
