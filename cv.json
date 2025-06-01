@@ -155,6 +155,26 @@
       "name": "UNIX_Linux",
       "level": "Master",
       "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "Javascript",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "Typescript",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "ReactJS",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Master",
+      "keywords": "Desarrollo Software"
     }
   ],
   "languages": [
@@ -183,10 +203,18 @@
   ],
   "projects": [
     {
+      "name": "Farmasol - Sistema de Base de Datos para Farmacia",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Proyecto universitario. Desarrollo de un sistema de gestión de bases de datos relacionales (SQL) con funcionalidades CRUD, implementado mediante tecnologías web y PostgreSQL para optimizar las operaciones de una cadena de farmacias. Mi rol abarcó el desarrollo integral del frontend, la implementación de la conectividad con el backend, y el asesoramiento en la definición de esquemas y relaciones de la base de datos.",
+      "highlights": [],
+      "url": "https://github.com/Chreez-V/Farmasol-front"
+    },
+    {
       "name": "Citium",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Agencia especializada en desarrollo y diseño web, mi trabajo trató en diseñar la web de Citium (landing page), sus componentes e ilustraciones personalizadas para los servicios",
+      "description": "Agencia de desarrollo y diseño web, fui responsable del diseño visual y la creación de la landing page principal. Esto incluyó la conceptualización y elaboración de componentes de interfaz de usuario e ilustraciones personalizadas que representan sus servicios.",
       "highlights": [],
       "url": "https://www.citium.dev/"
     },
@@ -194,7 +222,7 @@
       "name": "UI/UX Asosiación de Karate-do Estado Bolivar (AKEB)",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Cliente de citium, AKEB se encargará de mostrar los ranking de los atletas del estado, eventos y dojos afiliados a la asociación. Mi trabajo constió en el desarrollo y diseño de la landing page y sub-páginas para la página web de AKEB",
+      "description": "Cliente de citium, AKEB se encargará de mostrar los ranking de los atletas del estado, eventos y dojos afiliados a la asociación. Mi trabajo constió en el desarrollo y diseño de la landing page y sub-páginas para el sistema web AKEB",
       "highlights": [],
       "url": "https://drive.google.com/file/d/1a_kmnR7CLD9-tzw4OZGcD6CS4hbGT-JF/view?usp=sharing"
     },
